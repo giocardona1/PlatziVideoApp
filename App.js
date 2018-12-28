@@ -11,6 +11,7 @@ import {Text,}
 from 'react-native';
 
 import Home from './src/screens/containers/home';
+import Header from './src/sections/components/header';
 
 
 
@@ -19,12 +20,11 @@ export default class App extends Component<Props> {
   render() {
     return (
       <Home> 
-      <Text> header</Text>
+      <Header />
       <Text> buscador</Text>
       <Text> categorias</Text>
       <Text> sugerencias </Text>
-      <Text> BATISTUTA </Text>
-      </Home> 
+     </Home> 
       
     );
   }
